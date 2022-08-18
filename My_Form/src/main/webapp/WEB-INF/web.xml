@@ -1,0 +1,59 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>RegisCtnl</servlet-name>
+		<display-name>RegisCtnl</display-name>
+		<description></description>
+		<servlet-class>com.raystech.ctnl.RegisCtnl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UserCtnl</servlet-name>
+		<display-name>UserCtnl</display-name>
+		<description></description>
+		<servlet-class>com.raystech.ctnl.UserCtnl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Forgotctnl</servlet-name>
+		<display-name>Forgotctnl</display-name>
+		<description></description>
+		<servlet-class>com.raystech.ctnl.Forgotctnl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GetPassword</servlet-name>
+		<display-name>GetPassword</display-name>
+		<description></description>
+		<servlet-class>com.raystech.ctnl.GetPassword</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GetCookies</servlet-name>
+		<display-name>GetCookies</display-name>
+		<description></description>
+		<servlet-class>com.raystech.ctnl.GetCookies</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegisCtnl</servlet-name>
+		<url-pattern>/RegisCtnl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserCtnl</servlet-name>
+		<url-pattern>/UserCtnl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Forgotctnl</servlet-name>
+		<url-pattern>/Forgotctnl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetPassword</servlet-name>
+		<url-pattern>/GetPassword</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetCookies</servlet-name>
+		<url-pattern>/GetCookies</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>
